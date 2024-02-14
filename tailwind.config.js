@@ -2,7 +2,12 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'blue-facebook':'#0866ff',
+        'green-facebook':'#42b72a'
+      }
+    },
   },
   plugins: [],
 }
